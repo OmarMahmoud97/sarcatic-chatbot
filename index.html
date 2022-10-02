@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles/main.css" />
+    <script src="../scripts/script.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.27.2/axios.min.js"></script>
+    <title>Mr Sarcasm</title>
+  </head>
+  <body>
+    <video autoplay muted loop class="Chatbox__video">
+      <source
+        src="../sarcastic-chatbot/asset/newBackgroundVid.mp4"
+        type="video/mp4"
+      />
+    </video>
+    <section class="navbar">
+      <navbar class="navbar__container">
+        <div class="navbar__wrapper">
+          <div class="navbar__left">
+            <div class="navbar__date">
+              <p class="navbar__date-text">21/09/2022</p>
+            </div>
+          </div>
+          <div class="navbar__center">Mr Sarcasm</div>
+          <div class="navbar__right">
+            <div class="navbar__switch">
+              <div class="navbar__toggle"></div>
+            </div>
+          </div>
+        </div>
+      </navbar>
+    </section>
+
+    <section class="chatbox">
+      <div class="chatbox__wrapper">
+        <div class="chatbox__container">
+          <div class="chatbox__left"></div>
+          <div class="chatbox__right"></div>
+          <div class="chatbox__left"></div>
+        </div>
+        <div class="chatbox__form">
+          <form action="" class="chatbox__form" id="form">
+            <textarea
+              class="chatbox__input"
+              name="message"
+              placeholder="Type your message here ..."
+              type="submit"
+              value="submit"
+              enterkeyhint="send"
+            ></textarea>
+            <button
+              class="chatbox__submit"
+              name="submit"
+              type="submit"
+              value="submit"
+            >
+              Send
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
