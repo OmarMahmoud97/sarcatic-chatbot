@@ -16,18 +16,17 @@
     <title>Mr Sarcasm</title>
   </head>
   <body>
-    <video autoplay muted loop class="Chatbox__video">
-      <source
-        src="../sarcastic-chatbot/asset/newBackgroundVid.mp4"
-        type="video/mp4"
-      />
-    </video>
+<video class="background-video" autoplay loop muted poster="./asset/newBackgroundVid.mp4">
+  <source src="./asset/newBackgroundVid.mp4" type="video/mp4">
+</video>
+
     <section class="navbar">
+      </video>
       <navbar class="navbar__container">
         <div class="navbar__wrapper">
           <div class="navbar__left">
             <div class="navbar__date">
-              <p class="navbar__date-text">21/09/2022</p>
+              <p class="navbar__date-text" id="clock"><span id="clock"></span></p>
             </div>
           </div>
           <div class="navbar__center">Mr Sarcasm</div>

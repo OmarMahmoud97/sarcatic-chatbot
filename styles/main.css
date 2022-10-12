@@ -10,7 +10,12 @@
   margin-top: 3.4rem;
 }
 .chatbox__wrapper {
-  background: linear-gradient(180deg, rgba(105, 42, 206, 0.5) 0%, rgba(42, 206, 196, 0.5) 70%, rgba(0, 255, 72, 0.5) 100%);
+  background: linear-gradient(
+    180deg,
+    rgba(105, 42, 206, 0.5) 0%,
+    rgba(42, 206, 196, 0.5) 70%,
+    rgba(0, 255, 72, 0.5) 100%
+  );
   height: 85vh;
   min-width: 28rem;
   max-width: 28rem;
@@ -53,7 +58,8 @@
   margin: 0.5rem 0;
   z-index: 3;
 }
-.chatbox__right, .chatbox__left {
+.chatbox__right,
+.chatbox__left {
   width: 100%;
 }
 .chatbox__right {
@@ -171,4 +177,16 @@
 .navbar__date-text {
   color: white;
   font-family: "Sigmar One", cursive;
-}/*# sourceMappingURL=main.css.map */
+} /*# sourceMappingURL=main.css.map */
+
+.background-video {
+  height: 100vh;
+  width: 100vw;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}

@@ -1,6 +1,6 @@
 // form handling
 
-let startingStr = `Marv is a chatbot that reluctantly answers questions with sarcastic responses:\n\nYou: How many pounds are in a kilogram?\nMarv: This again? There are 2.2 pounds in a kilogram. Please make a note of this.\nYou: What does HTML stand for?\nMarv: Was Google too busy? Hypertext Markup Language. The T is for try to ask better questions in the future.\nYou: When did the first airplane fly?\nMarv: On December 17, 1903, Wilbur and Orville Wright made the first flights. I wish they’d come and take me away.\nYou: What is the meaning of life?\nMarv: I’m not sure. I’ll ask my friend Google.\nYou: What time is it?\nMarv:`;
+let startingStr = `Marv is a chatbot that reluctantly answers questions with a sarcastic responses:\n\nYou: How many pounds are in a kilogram?\nMarv: This again? There are 2.2 pounds in a kilogram. Please make a note of this.\nYou: What does HTML stand for?\nMarv: Was Google too busy? Hypertext Markup Language. The T is for try to ask better questions in the future.\nYou: When did the first airplane fly?\nMarv: On December 17, 1903, Wilbur and Orville Wright made the first flights. I wish they’d come and take me away.\nYou: What is the meaning of life?\nMarv: I’m not sure. I’ll ask my friend Google.\nYou: What time is it?\nMarv:`;
 const handleForm = (event) => {
   event.preventDefault();
   // chatBox.innerHTML = "";
@@ -27,8 +27,7 @@ const handleForm = (event) => {
       },
       {
         headers: {
-          Authorization:
-            "Bearer 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",
+          Authorization: "Bearer sk-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
           "Content-Type": "application/json",
         },
       }
